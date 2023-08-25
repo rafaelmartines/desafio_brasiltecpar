@@ -9,8 +9,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class BatchCommand extends Command
-{
+class BatchCommand extends Command {
     protected static $defaultName = "avato:test";
     protected static $defaultDescription 
         = "Cria um batch de hashs em looping de acordo com os parametros de requests";

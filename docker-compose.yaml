@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  php:
-    container_name: php
+  brasil_tecpar:
+    container_name: brasil_tecpar
     tty: true
     volumes: 
       - ./:/www/

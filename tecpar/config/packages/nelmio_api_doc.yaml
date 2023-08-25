@@ -1,0 +1,10 @@
+nelmio_api_doc:
+  areas:
+    path_patterns: # an array of regexps (document only routes under /api, except /api/doc)
+      - ^/api(?!/doc$)
+    
+  documentation:
+    info:
+      title: Desafio Brasil Tecpar
+      description: Documentação da API para o Desafio da Brasil Tecpar
+      version: 0.0.1
