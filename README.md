@@ -1,4 +1,11 @@
 
+# Desafio Brasil Tecpar
+
+Este repositório contem os scripts feitos para o desafio de recrutamento da Brasil Tecpar
+
+
+
+
 ## Instalação
 
 É necessário ter uma base de dados em PostgreSQL instalado na máquina para isso recomendo subir um banco de dados seguindo o passo-a-passo de acordo com [esse repositório](https://github.com/rafaelmartines/docker-compose-databases) no Github.
