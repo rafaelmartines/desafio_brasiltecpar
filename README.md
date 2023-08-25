@@ -53,4 +53,10 @@ E instalar os assets para o swagger, dentro da pasta tecpar
 php bin/console assets:install
 ```
 
+E executar o seguinte comando para criar a tabela no banco de dados:
+
+```bash
+php bin/console doctrine:migrations:migrate
+```
+
 Ao final do projeto acessar o projeto pelo link: http://localhost:8080/api/doc
